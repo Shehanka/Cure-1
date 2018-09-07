@@ -9,7 +9,7 @@ using Android.Support.V7.App;
 using Android.Views;
 
 namespace Cure
-{
+{//dcsdcdczc
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
     {
@@ -65,7 +65,7 @@ namespace Cure
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
             View view = (View) sender;
-            Snackbar.Make(view, "Replace with your own action test 1", Snackbar.LengthLong)
+            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
                 .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
         }
 
